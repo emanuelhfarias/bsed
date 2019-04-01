@@ -7,7 +7,7 @@ applying a command to an entire input stream or open file.
 
 Some example commands:
 
-- `bsed contacts.csv delete lines containing 'myemail@website.com'`
+- `bsed contacts.csv delete lines containing 'myemail\@website.com'`
 - `bsed giant_malformatted.json replace '\'' with '\"' | bsed replace 'True' with 'true' | bsed replace 'False' with 
 'false'` 
 - `bsed file.txt append 'Yahoo' with '!'`
